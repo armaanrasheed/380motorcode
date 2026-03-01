@@ -166,6 +166,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Src/usart_aspep_driver.c</locationURI>
 		</link>
 		<link>
+			<name>Application/User/pico_cmd_handler.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Src/pico_cmd_handler.c</locationURI>
+		</link>
+		<link>
 			<name>Drivers/CMSIS/system_stm32g4xx.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Src/system_stm32g4xx.c</locationURI>

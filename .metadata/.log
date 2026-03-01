@@ -138,3 +138,35 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.services.ISourcePr
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
 	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2762)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-02-28 23:46:59.582 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/armaan/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/armaan/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-28 23:47:28.177
+!MESSAGE Log4j2 initialized with config file /Users/armaan/projects/mte380-firmware/380motorcode/.metadata/.log4j2.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2026-02-28 23:47:29.016
+!MESSAGE Removing PartDescriptorImpl with the "com.st.stm32cube.common.mx.views.OutputsView" id and the "Outputs" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-28 23:47:30.063
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-02-28 23:53:59.017 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/armaan/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/armaan/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-02-28 23:54:27.704
+!MESSAGE Log4j2 initialized with config file /Users/armaan/projects/mte380-firmware/380motorcode/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-02-28 23:54:29.141
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-28 23:56:00.763
+!MESSAGE Indexed 'STM32CubeIDE' (72 sources, 158 headers) in 1.54 sec: 15,968 declarations; 103,814 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0017%)

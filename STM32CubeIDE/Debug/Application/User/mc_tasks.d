@@ -94,7 +94,7 @@ Application/User/mc_tasks.o: \
  ../../Inc/aspep.h \
  ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h \
  ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcpa.h \
- ../../Inc/mc_app_hooks.h
+ ../../Inc/mc_app_hooks.h ../../Inc/pico_cmd_handler.h
 ../../Inc/main.h:
 ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:
 ../../Inc/stm32g4xx_hal_conf.h:
@@ -204,3 +204,4 @@ Application/User/mc_tasks.o: \
 ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h:
 ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcpa.h:
 ../../Inc/mc_app_hooks.h:
+../../Inc/pico_cmd_handler.h:

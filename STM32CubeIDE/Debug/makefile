@@ -36,34 +36,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := armaan-kingval
+BUILD_ARTIFACT_NAME := STM32CubeIDE
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-armaan-kingval.elf \
+STM32CubeIDE.elf \
 
 MAP_FILES += \
-armaan-kingval.map \
+STM32CubeIDE.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-armaan-kingval.list \
+STM32CubeIDE.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: armaan-kingval.elf secondary-outputs
+main-build: STM32CubeIDE.elf secondary-outputs
 
 # Tool invocations
-armaan-kingval.elf armaan-kingval.map: $(OBJS) $(USER_OBJS) /Users/armaan/projects/mte380-firmware/380motorcode/STM32CubeIDE/STM32G431CBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "armaan-kingval.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/armaan/projects/mte380-firmware/380motorcode/STM32CubeIDE/STM32G431CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="armaan-kingval.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32CubeIDE.elf STM32CubeIDE.map: $(OBJS) $(USER_OBJS) /Users/armaan/projects/mte380-firmware/380motorcode/STM32CubeIDE/STM32G431CBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32CubeIDE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/armaan/projects/mte380-firmware/380motorcode/STM32CubeIDE/STM32G431CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32CubeIDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -72,14 +72,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-armaan-kingval.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "armaan-kingval.list"
+STM32CubeIDE.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "STM32CubeIDE.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) armaan-kingval.elf armaan-kingval.list armaan-kingval.map default.size.stdout
+	-$(RM) STM32CubeIDE.elf STM32CubeIDE.list STM32CubeIDE.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

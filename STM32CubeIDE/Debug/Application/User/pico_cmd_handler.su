@@ -1,0 +1,4 @@
+/Users/armaan/projects/mte380-firmware/380motorcode/Src/pico_cmd_handler.c:33:6:PicoCmd_Heartbeat	0	static
+/Users/armaan/projects/mte380-firmware/380motorcode/Src/pico_cmd_handler.c:38:6:PicoCmd_Init	0	static,ignoring_inline_asm
+/Users/armaan/projects/mte380-firmware/380motorcode/Src/pico_cmd_handler.c:43:6:PicoCmd_IRQHandler	4	static
+/Users/armaan/projects/mte380-firmware/380motorcode/Src/pico_cmd_handler.c:91:6:PicoCmd_Process	24	static

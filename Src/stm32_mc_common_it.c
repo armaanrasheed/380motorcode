@@ -35,7 +35,7 @@
 #include "mcp_config.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "pico_cmd_handler.h"
 /* USER CODE END Includes */
 
 /** @addtogroup MCSDK
@@ -69,7 +69,13 @@ void SysTick_Handler(void);
 //cstat !MISRAC2012-Rule-8.4
 void USART2_IRQHandler(void)
 {
-  /* UART echo test: IRQ disabled via MX_NVIC_Init skip, handler is a no-op */
+  /* USER CODE BEGIN USART2_IRQHandler 0 */
+  PicoCmd_IRQHandler();
+  /* USER CODE END USART2_IRQHandler 0 */
+
+  /* USER CODE BEGIN USART2_IRQHandler 1 */
+
+  /* USER CODE END USART2_IRQHandler 1 */
 }
 
 /**
@@ -97,7 +103,34 @@ void HardFault_Handler(void)
 
 void SysTick_Handler(void)
 {
-  HAL_IncTick();
+#ifdef MC_HAL_IS_USED
+static uint8_t SystickDividerCounter = SYSTICK_DIVIDER;
+  /* USER CODE BEGIN SysTick_IRQn 0 */
+
+  /* USER CODE END SysTick_IRQn 0 */
+  if (SystickDividerCounter == SYSTICK_DIVIDER)
+  {
+    HAL_IncTick();
+    HAL_SYSTICK_IRQHandler();
+    SystickDividerCounter = 0;
+  }
+  else
+  {
+    /* Nothing to do */
+  }
+
+  SystickDividerCounter ++;
+#endif /* MC_HAL_IS_USED */
+
+  /* USER CODE BEGIN SysTick_IRQn 1 */
+
+  /* USER CODE END SysTick_IRQn 1 */
+
+    MC_RunMotorControlTasks();
+
+  /* USER CODE BEGIN SysTick_IRQn 2 */
+
+  /* USER CODE END SysTick_IRQn 2 */
 }
 
 /**

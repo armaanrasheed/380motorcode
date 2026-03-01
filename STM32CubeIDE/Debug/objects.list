@@ -15,6 +15,7 @@
 "./Application/User/mcp.o"
 "./Application/User/mcp_config.o"
 "./Application/User/motorcontrol.o"
+"./Application/User/pico_cmd_handler.o"
 "./Application/User/pwm_common.o"
 "./Application/User/pwm_curr_fdbk.o"
 "./Application/User/regular_conversion_manager.o"

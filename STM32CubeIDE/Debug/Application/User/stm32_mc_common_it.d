@@ -93,7 +93,8 @@ Application/User/stm32_mc_common_it.o: \
  ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h \
  ../../Inc/aspep.h \
  ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h \
- ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcpa.h
+ ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcpa.h \
+ ../../Inc/pico_cmd_handler.h
 ../../Inc/mc_config.h:
 ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/pid_regulator.h:
 ../../Inc/mc_type.h:
@@ -198,3 +199,4 @@ Application/User/stm32_mc_common_it.o: \
 ../../Inc/aspep.h:
 ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcptl.h:
 ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/mcpa.h:
+../../Inc/pico_cmd_handler.h:

@@ -1,0 +1,16 @@
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:67:6:HAL_MspInit	16	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:98:6:HAL_ADC_MspInit	120	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:188:6:HAL_ADC_MspDeInit	8	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:262:6:HAL_COMP_MspInit	48	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:331:6:HAL_COMP_MspDeInit	0	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:387:6:HAL_CORDIC_MspInit	8	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:410:6:HAL_CORDIC_MspDeInit	0	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:432:6:HAL_DAC_MspInit	8	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:455:6:HAL_DAC_MspDeInit	0	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:477:6:HAL_OPAMP_MspInit	48	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:552:6:HAL_OPAMP_MspDeInit	0	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:614:6:HAL_TIM_PWM_MspInit	8	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:631:6:HAL_TIM_MspPostInit	56	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:684:6:HAL_TIM_PWM_MspDeInit	8	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:710:6:HAL_UART_MspInit	112	static
+C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/stm32g4xx_hal_msp.c:793:6:HAL_UART_MspDeInit	8	static

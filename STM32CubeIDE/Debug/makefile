@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (14.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -62,8 +62,8 @@ all: main-build
 main-build: armaan-kingval.elf secondary-outputs
 
 # Tool invocations
-armaan-kingval.elf armaan-kingval.map: $(OBJS) $(USER_OBJS) C:\Users\mearm\.st_workbench\projects\armaan-kingval\STM32CubeIDE\STM32G431CBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "armaan-kingval.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\mearm\.st_workbench\projects\armaan-kingval\STM32CubeIDE\STM32G431CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="armaan-kingval.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+armaan-kingval.elf armaan-kingval.map: $(OBJS) $(USER_OBJS) /Users/armaan/projects/mte380-firmware/380motorcode/STM32CubeIDE/STM32G431CBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "armaan-kingval.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/armaan/projects/mte380-firmware/380motorcode/STM32CubeIDE/STM32G431CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="armaan-kingval.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

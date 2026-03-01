@@ -1,5 +1,5 @@
 Middlewares/MotorControl/sto_pll_speed_pos_fdbk.o: \
- C:/Users/mearm/.st_workbench/projects/armaan-kingval/MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_pll_speed_pos_fdbk.c \
+ /Users/armaan/projects/mte380-firmware/380motorcode/MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_pll_speed_pos_fdbk.c \
  ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/sto_pll_speed_pos_fdbk.h \
  ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/speed_pos_fdbk.h \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \

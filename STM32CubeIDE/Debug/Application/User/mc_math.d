@@ -1,5 +1,5 @@
 Application/User/mc_math.o: \
- C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/mc_math.c \
+ /Users/armaan/projects/mte380-firmware/380motorcode/Src/mc_math.c \
  ../../Inc/mc_math.h ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \
  ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \

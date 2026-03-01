@@ -1,5 +1,5 @@
 Middlewares/MotorControl/circle_limitation.o: \
- C:/Users/mearm/.st_workbench/projects/armaan-kingval/MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Src/circle_limitation.c \
+ /Users/armaan/projects/mte380-firmware/380motorcode/MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Src/circle_limitation.c \
  ../../MCSDK_v6.4.1-Full/MotorControl/MCSDK/MCLib/Any/Inc/circle_limitation.h \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \

@@ -1,5 +1,5 @@
 Application/User/hf_registers.o: \
- C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/hf_registers.c \
+ /Users/armaan/projects/mte380-firmware/380motorcode/Src/hf_registers.c \
  ../../Inc/register_interface.h ../../Inc/mc_type.h \
  ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \

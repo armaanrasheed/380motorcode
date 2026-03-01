@@ -1,5 +1,5 @@
 Application/User/regular_conversion_manager.o: \
- C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/regular_conversion_manager.c \
+ /Users/armaan/projects/mte380-firmware/380motorcode/Src/regular_conversion_manager.c \
  ../../Inc/regular_conversion_manager.h ../../Inc/mc_type.h \
  ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \

@@ -1,5 +1,5 @@
 Application/User/usart_aspep_driver.o: \
- C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/usart_aspep_driver.c \
+ /Users/armaan/projects/mte380-firmware/380motorcode/Src/usart_aspep_driver.c \
  ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \
  ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \

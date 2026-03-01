@@ -1,5 +1,5 @@
 Application/User/mc_parameters.o: \
- C:/Users/mearm/.st_workbench/projects/armaan-kingval/Src/mc_parameters.c \
+ /Users/armaan/projects/mte380-firmware/380motorcode/Src/mc_parameters.c \
  ../../Inc/main.h ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../../Inc/stm32g4xx_hal_conf.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \

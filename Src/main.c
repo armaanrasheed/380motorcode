@@ -118,25 +118,25 @@ int main(void)
 
   /* USER CODE END SysInit */
 
-  /* Initialize all configured peripherals */
+  /* Initialize only GPIO, DMA, and UART for echo test */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_ADC1_Init();
-  MX_ADC2_Init();
-  MX_COMP1_Init();
-  MX_COMP2_Init();
-  MX_COMP4_Init();
-  MX_CORDIC_Init();
-  MX_DAC3_Init();
-  MX_OPAMP1_Init();
-  MX_OPAMP2_Init();
-  MX_OPAMP3_Init();
-  MX_TIM1_Init();
+  // MX_ADC1_Init();
+  // MX_ADC2_Init();
+  // MX_COMP1_Init();
+  // MX_COMP2_Init();
+  // MX_COMP4_Init();
+  // MX_CORDIC_Init();
+  // MX_DAC3_Init();
+  // MX_OPAMP1_Init();
+  // MX_OPAMP2_Init();
+  // MX_OPAMP3_Init();
+  // MX_TIM1_Init();
   MX_USART2_UART_Init();
-  MX_MotorControl_Init();
+  // MX_MotorControl_Init();
 
-  /* Initialize interrupts */
-  MX_NVIC_Init();
+  /* Skip MX_NVIC_Init to prevent stock USART2 IRQ (ASPEP) from firing */
+  // MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -145,6 +145,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    uint8_t byte;
+    if (HAL_UART_Receive(&huart2, &byte, 1, 0) == HAL_OK)
+    {
+      HAL_UART_Transmit(&huart2, &byte, 1, HAL_MAX_DELAY);
+    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

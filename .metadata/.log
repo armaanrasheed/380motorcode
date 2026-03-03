@@ -170,3 +170,19 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/arma
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-02-28 23:56:00.763
 !MESSAGE Indexed 'STM32CubeIDE' (72 sources, 158 headers) in 1.54 sec: 15,968 declarations; 103,814 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0017%)
+!SESSION 2026-03-03 12:41:54.728 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/armaan/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/armaan/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-03-03 12:41:57.716
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-03 12:41:58.625
+!MESSAGE Log4j2 initialized with config file /Users/armaan/projects/mte380-firmware/380motorcode/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-03 12:42:01.068
+!MESSAGE Started RMI Server, listening on port 41337

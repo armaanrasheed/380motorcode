@@ -1309,7 +1309,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x46 ./Application/User/mc_configuration_registers.o
  .debug_macro   0x00000000      0x24a ./Application/User/mc_configuration_registers.o
  .debug_line    0x00000000      0xb60 ./Application/User/mc_configuration_registers.o
- .debug_str     0x00000000    0xfc84e ./Application/User/mc_configuration_registers.o
+ .debug_str     0x00000000    0xfc84d ./Application/User/mc_configuration_registers.o
  .comment       0x00000000       0x44 ./Application/User/mc_configuration_registers.o
  .ARM.attributes
                 0x00000000       0x30 ./Application/User/mc_configuration_registers.o
@@ -2347,7 +2347,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x7c ./Application/User/mcp.o
  .debug_macro   0x00000000       0x52 ./Application/User/mcp.o
  .debug_line    0x00000000     0x11e0 ./Application/User/mcp.o
- .debug_str     0x00000000    0xfddb0 ./Application/User/mcp.o
+ .debug_str     0x00000000    0xfddaf ./Application/User/mcp.o
  .comment       0x00000000       0x44 ./Application/User/mcp.o
  .debug_frame   0x00000000       0xb4 ./Application/User/mcp.o
  .ARM.attributes
@@ -3892,7 +3892,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x24a ./Application/User/stm32g4xx_it.o
  .debug_macro   0x00000000      0x112 ./Application/User/stm32g4xx_it.o
  .debug_line    0x00000000      0xcc5 ./Application/User/stm32g4xx_it.o
- .debug_str     0x00000000    0xf9864 ./Application/User/stm32g4xx_it.o
+ .debug_str     0x00000000    0xf9863 ./Application/User/stm32g4xx_it.o
  .comment       0x00000000       0x44 ./Application/User/stm32g4xx_it.o
  .ARM.attributes
                 0x00000000       0x30 ./Application/User/stm32g4xx_it.o
@@ -4262,7 +4262,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x7c ./Application/User/sync_registers.o
  .debug_macro   0x00000000       0x52 ./Application/User/sync_registers.o
  .debug_line    0x00000000     0x23d2 ./Application/User/sync_registers.o
- .debug_str     0x00000000   0x101d5f ./Application/User/sync_registers.o
+ .debug_str     0x00000000   0x101d5e ./Application/User/sync_registers.o
  .comment       0x00000000       0x44 ./Application/User/sync_registers.o
  .debug_frame   0x00000000       0xe0 ./Application/User/sync_registers.o
  .ARM.attributes
@@ -12401,61 +12401,61 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_aranges
                 0x00001fd0       0x70 ./Middlewares/MotorControl/virtual_speed_sensor.o
 
-.debug_str      0x00000000   0x10ae0f
- .debug_str     0x00000000   0x10ae0f ./Application/Startup/startup_stm32g431cbux.o
+.debug_str      0x00000000   0x10ae0e
+ .debug_str     0x00000000   0x10ae0e ./Application/Startup/startup_stm32g431cbux.o
                                  0x92 (size before relaxing)
- .debug_str     0x0010ae0f    0xf94c5 ./Application/User/aspep.o
- .debug_str     0x0010ae0f    0xfb92c ./Application/User/main.o
- .debug_str     0x0010ae0f    0xf5524 ./Application/User/mc_api.o
- .debug_str     0x0010ae0f    0xf33fd ./Application/User/mc_app_hooks.o
- .debug_str     0x0010ae0f    0xfb3e4 ./Application/User/mc_config.o
- .debug_str     0x0010ae0f    0xfa235 ./Application/User/mc_config_common.o
- .debug_str     0x0010ae0f    0xfa833 ./Application/User/mc_interface.o
- .debug_str     0x0010ae0f    0xf5c04 ./Application/User/mc_math.o
- .debug_str     0x0010ae0f    0xf9d27 ./Application/User/mc_parameters.o
- .debug_str     0x0010ae0f    0xfb8aa ./Application/User/mc_tasks.o
- .debug_str     0x0010ae0f    0xfc2db ./Application/User/mc_tasks_foc.o
- .debug_str     0x0010ae0f    0xf9aa7 ./Application/User/mcp_config.o
- .debug_str     0x0010ae0f    0xfaae3 ./Application/User/motorcontrol.o
- .debug_str     0x0010ae0f    0xf384c ./Application/User/pico_cmd_handler.o
- .debug_str     0x0010ae0f    0xf373d ./Application/User/pwm_common.o
- .debug_str     0x0010ae0f    0xf63e4 ./Application/User/pwm_curr_fdbk.o
- .debug_str     0x0010ae0f    0xf3efc ./Application/User/regular_conversion_manager.o
- .debug_str     0x0010ae0f    0xf3ab9 ./Application/User/speed_torq_ctrl.o
- .debug_str     0x0010ae0f    0xf9eca ./Application/User/stm32_mc_common_it.o
- .debug_str     0x0010ae0f    0xfb25b ./Application/User/stm32g4xx_hal_msp.o
- .debug_str     0x0010ae0f    0xfa078 ./Application/User/stm32g4xx_mc_it.o
- .debug_str     0x0010ae0f    0xf91b7 ./Application/User/usart_aspep_driver.o
- .debug_str     0x0010ae0f    0xdaddf ./Drivers/CMSIS/system_stm32g4xx.o
- .debug_str     0x0010ae0f    0xdb975 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal.o
- .debug_str     0x0010ae0f    0xdbe11 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc.o
- .debug_str     0x0010ae0f    0xdbdb7 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc_ex.o
- .debug_str     0x0010ae0f    0xdb0a6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_comp.o
- .debug_str     0x0010ae0f    0xdb28a ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_cordic.o
- .debug_str     0x0010ae0f    0xdb5df ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_cortex.o
- .debug_str     0x0010ae0f    0xdb4b9 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac.o
- .debug_str     0x0010ae0f    0xdb1be ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma.o
- .debug_str     0x0010ae0f    0xdaf6f ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_gpio.o
- .debug_str     0x0010ae0f    0xdb2b2 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp.o
- .debug_str     0x0010ae0f    0xdb2d2 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr_ex.o
- .debug_str     0x0010ae0f    0xdb4dd ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_rcc.o
- .debug_str     0x0010ae0f    0xdb4de ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_rcc_ex.o
- .debug_str     0x0010ae0f    0xdc2e2 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_tim.o
- .debug_str     0x0010ae0f    0xdbf56 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_tim_ex.o
- .debug_str     0x0010ae0f    0xdbdb0 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart.o
- .debug_str     0x0010ae0f    0xdb59d ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart_ex.o
- .debug_str     0x0010ae0f    0xf5afe ./Middlewares/MotorControl/circle_limitation.o
- .debug_str     0x0010ae0f    0xf9f6f ./Middlewares/MotorControl/mcpa.o
- .debug_str     0x0010ae0f    0xf3559 ./Middlewares/MotorControl/ntc_temperature_sensor.o
- .debug_str     0x0010ae0f    0xf37a0 ./Middlewares/MotorControl/pid_regulator.o
- .debug_str     0x0010ae0f    0xf362e ./Middlewares/MotorControl/pqd_motor_power_measurement.o
- .debug_str     0x0010ae0f    0xf4956 ./Middlewares/MotorControl/r3_2_g4xx_pwm_curr_fdbk.o
- .debug_str     0x0010ae0f    0xf35b2 ./Middlewares/MotorControl/r_divider_bus_voltage_sensor.o
- .debug_str     0x0010ae0f    0xf355f ./Middlewares/MotorControl/ramp_ext_mngr.o
- .debug_str     0x0010ae0f    0xf4459 ./Middlewares/MotorControl/revup_ctrl.o
- .debug_str     0x0010ae0f    0xf365f ./Middlewares/MotorControl/speed_pos_fdbk.o
- .debug_str     0x0010ae0f    0xf6643 ./Middlewares/MotorControl/sto_pll_speed_pos_fdbk.o
- .debug_str     0x0010ae0f    0xf382a ./Middlewares/MotorControl/virtual_speed_sensor.o
+ .debug_str     0x0010ae0e    0xf94c4 ./Application/User/aspep.o
+ .debug_str     0x0010ae0e    0xfb92b ./Application/User/main.o
+ .debug_str     0x0010ae0e    0xf5524 ./Application/User/mc_api.o
+ .debug_str     0x0010ae0e    0xf33fd ./Application/User/mc_app_hooks.o
+ .debug_str     0x0010ae0e    0xfb3e3 ./Application/User/mc_config.o
+ .debug_str     0x0010ae0e    0xfa234 ./Application/User/mc_config_common.o
+ .debug_str     0x0010ae0e    0xfa832 ./Application/User/mc_interface.o
+ .debug_str     0x0010ae0e    0xf5c04 ./Application/User/mc_math.o
+ .debug_str     0x0010ae0e    0xf9d26 ./Application/User/mc_parameters.o
+ .debug_str     0x0010ae0e    0xfb8a9 ./Application/User/mc_tasks.o
+ .debug_str     0x0010ae0e    0xfc2da ./Application/User/mc_tasks_foc.o
+ .debug_str     0x0010ae0e    0xf9aa6 ./Application/User/mcp_config.o
+ .debug_str     0x0010ae0e    0xfaae2 ./Application/User/motorcontrol.o
+ .debug_str     0x0010ae0e    0xf384c ./Application/User/pico_cmd_handler.o
+ .debug_str     0x0010ae0e    0xf373d ./Application/User/pwm_common.o
+ .debug_str     0x0010ae0e    0xf63e4 ./Application/User/pwm_curr_fdbk.o
+ .debug_str     0x0010ae0e    0xf3efc ./Application/User/regular_conversion_manager.o
+ .debug_str     0x0010ae0e    0xf3ab9 ./Application/User/speed_torq_ctrl.o
+ .debug_str     0x0010ae0e    0xf9ec9 ./Application/User/stm32_mc_common_it.o
+ .debug_str     0x0010ae0e    0xfb25a ./Application/User/stm32g4xx_hal_msp.o
+ .debug_str     0x0010ae0e    0xfa077 ./Application/User/stm32g4xx_mc_it.o
+ .debug_str     0x0010ae0e    0xf91b6 ./Application/User/usart_aspep_driver.o
+ .debug_str     0x0010ae0e    0xdaddf ./Drivers/CMSIS/system_stm32g4xx.o
+ .debug_str     0x0010ae0e    0xdb975 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal.o
+ .debug_str     0x0010ae0e    0xdbe11 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc.o
+ .debug_str     0x0010ae0e    0xdbdb7 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_adc_ex.o
+ .debug_str     0x0010ae0e    0xdb0a6 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_comp.o
+ .debug_str     0x0010ae0e    0xdb28a ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_cordic.o
+ .debug_str     0x0010ae0e    0xdb5df ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_cortex.o
+ .debug_str     0x0010ae0e    0xdb4b9 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dac.o
+ .debug_str     0x0010ae0e    0xdb1be ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma.o
+ .debug_str     0x0010ae0e    0xdaf6f ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_gpio.o
+ .debug_str     0x0010ae0e    0xdb2b2 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_opamp.o
+ .debug_str     0x0010ae0e    0xdb2d2 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_pwr_ex.o
+ .debug_str     0x0010ae0e    0xdb4dd ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_rcc.o
+ .debug_str     0x0010ae0e    0xdb4de ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_rcc_ex.o
+ .debug_str     0x0010ae0e    0xdc2e2 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_tim.o
+ .debug_str     0x0010ae0e    0xdbf56 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_tim_ex.o
+ .debug_str     0x0010ae0e    0xdbdb0 ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart.o
+ .debug_str     0x0010ae0e    0xdb59d ./Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_uart_ex.o
+ .debug_str     0x0010ae0e    0xf5afe ./Middlewares/MotorControl/circle_limitation.o
+ .debug_str     0x0010ae0e    0xf9f6f ./Middlewares/MotorControl/mcpa.o
+ .debug_str     0x0010ae0e    0xf3559 ./Middlewares/MotorControl/ntc_temperature_sensor.o
+ .debug_str     0x0010ae0e    0xf37a0 ./Middlewares/MotorControl/pid_regulator.o
+ .debug_str     0x0010ae0e    0xf362e ./Middlewares/MotorControl/pqd_motor_power_measurement.o
+ .debug_str     0x0010ae0e    0xf4956 ./Middlewares/MotorControl/r3_2_g4xx_pwm_curr_fdbk.o
+ .debug_str     0x0010ae0e    0xf35b2 ./Middlewares/MotorControl/r_divider_bus_voltage_sensor.o
+ .debug_str     0x0010ae0e    0xf355f ./Middlewares/MotorControl/ramp_ext_mngr.o
+ .debug_str     0x0010ae0e    0xf4459 ./Middlewares/MotorControl/revup_ctrl.o
+ .debug_str     0x0010ae0e    0xf365f ./Middlewares/MotorControl/speed_pos_fdbk.o
+ .debug_str     0x0010ae0e    0xf6643 ./Middlewares/MotorControl/sto_pll_speed_pos_fdbk.o
+ .debug_str     0x0010ae0e    0xf382a ./Middlewares/MotorControl/virtual_speed_sensor.o
 
 .debug_rnglists
                 0x00000000     0x34a2

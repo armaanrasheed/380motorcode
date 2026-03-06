@@ -143,13 +143,13 @@
 /******************************   START-UP PARAMETERS   **********************/
 
 /* Phase 1 */
-#define PHASE1_DURATION                     1000 /*milliseconds */
+#define PHASE1_DURATION                     300 /*milliseconds */
 #define PHASE1_FINAL_SPEED_UNIT             (0*SPEED_UNIT/U_RPM)
 #define PHASE1_FINAL_CURRENT_A              6
 
 /* Phase 2 */
-#define PHASE2_DURATION                     7982 /*milliseconds */
-#define PHASE2_FINAL_SPEED_UNIT             (3991*SPEED_UNIT/U_RPM)
+#define PHASE2_DURATION                     700 /*milliseconds */
+#define PHASE2_FINAL_SPEED_UNIT             (2500*SPEED_UNIT/U_RPM)
 #define PHASE2_FINAL_CURRENT_A              6
 
 /* Phase 3 */
@@ -173,7 +173,7 @@
 #define STARTING_ANGLE_DEG                  0  /*!< degrees [0...359] */
 
 /* Observer start-up output conditions  */
-#define OBS_MINIMUM_SPEED_RPM               3592
+#define OBS_MINIMUM_SPEED_RPM               2500
 #define NB_CONSECUTIVE_TESTS                2 /* corresponding to former
                                                  NB_CONSECUTIVE_TESTS / (TF_REGULATION_RATE / MEDIUM_FREQUENCY_TASK_RATE) */
 #define SPEED_BAND_UPPER_LIMIT              17 /*!< It expresses how much estimated speed can exceed forced stator electrical
